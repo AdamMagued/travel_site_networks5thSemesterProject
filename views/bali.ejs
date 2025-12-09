@@ -3,7 +3,7 @@
 <head>
     <style>
         body {
-            background-image: url("background3.jpg");
+            background-image: url("/background3.jpg");
 background-repeat: no-repeat;
             background-size: 100%;
         }
@@ -82,10 +82,10 @@ It is also famous for surfers' paradise.
     </div>
     <div class="wanttogo">
     <% if (error) { %>
-      <p style="color: red; font-weight: bold; background-color: white; padding: 5px;"><%= error %></p>
+      <p style="color: red; font-weight: bold; background-color: transparent; padding: 5px;"><%= error %></p>
     <% } %>
     <% if (success) { %>
-      <p style="color: green; font-weight: bold; background-color: white; padding: 5px;"><%= success %></p>
+      <p style="color: green; font-weight: bold; background-color: transparent; padding: 5px;"><%= success %></p>
     <% } %>
     
         <form method="POST" action="/bali/add" style="display: inline;">

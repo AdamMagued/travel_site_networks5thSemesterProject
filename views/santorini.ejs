@@ -3,7 +3,7 @@
 <head>
     <style>
         body {
-            background-image: url("background3.jpg");
+            background-image: url("/background3.jpg");
 background-repeat: no-repeat;
             background-size: 100%;
         }
@@ -81,10 +81,10 @@ Greek cuisine, regular boat excursions due to its ideal location for island hopp
 </div>
     <div class="wanttogo">
     <% if (error) { %>
-      <p style="color: red; font-weight: bold; background-color: white; padding: 5px;"><%= error %></p>
+      <p style="color: red; font-weight: bold; background-color: transparent; padding: 5px;"><%= error %></p>
     <% } %>
     <% if (success) { %>
-      <p style="color: green; font-weight: bold; background-color: white; padding: 5px;"><%= success %></p>
+      <p style="color: green; font-weight: bold; background-color: transparent; padding: 5px;"><%= success %></p>
     <% } %>
     
         <form method="POST" action="/santorini/add" style="display: inline;">
