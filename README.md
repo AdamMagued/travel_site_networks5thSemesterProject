@@ -1,4 +1,3 @@
-```markdown
 # Travel Site Project
 
 A web-based travel planning application built with Node.js, Express, and MongoDB. This application allows users to browse various travel destinations, create accounts, and manage a personal "Want-to-Go" list.
@@ -68,7 +67,3 @@ Before running the application, ensure you have the following installed:
 * `views/`: EJS templates for the frontend pages.
 * `public/`: Static files (CSS, images, JS).
 * `package.json`: Project metadata and dependencies.
-
-
-
-```
