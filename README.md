@@ -67,3 +67,5 @@ Before running the application, ensure you have the following installed:
 * `views/`: EJS templates for the frontend pages.
 * `public/`: Static files (CSS, images, JS).
 * `package.json`: Project metadata and dependencies.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
